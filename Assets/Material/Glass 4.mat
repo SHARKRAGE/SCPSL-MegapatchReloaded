@@ -168,11 +168,11 @@ Material:
     - _GlossMapScale: 0.654
     - _GlossMax: 1
     - _GlossMin: 0
-    - _Glossiness: 1
+    - _Glossiness: 0.941
     - _Glossiness2: 1
     - _GlossyReflections: 1
     - _MainShown: 1
-    - _Metallic: 1
+    - _Metallic: 0.832
     - _Metallic2: 1
     - _MinPulseBrightness: 0
     - _Mode: 2
