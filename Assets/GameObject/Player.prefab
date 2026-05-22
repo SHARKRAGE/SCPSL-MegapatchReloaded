@@ -3260,7 +3260,7 @@ Light:
       e32: 0
       e33: 1
     m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 2800000, guid: 60457afbd3b8022448d4fe246e6250b9, type: 3}
+  m_Cookie: {fileID: 2800000, guid: e99153f3c7695c240a3c82e843e9bdc4, type: 3}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
   m_RenderMode: 1
@@ -7421,7 +7421,7 @@ Light:
       e32: 0
       e33: 1
     m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 2800000, guid: 60457afbd3b8022448d4fe246e6250b9, type: 3}
+  m_Cookie: {fileID: 2800000, guid: e99153f3c7695c240a3c82e843e9bdc4, type: 3}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
   m_RenderMode: 1
@@ -19612,7 +19612,7 @@ Light:
       e32: 0
       e33: 1
     m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 2800000, guid: 60457afbd3b8022448d4fe246e6250b9, type: 3}
+  m_Cookie: {fileID: 2800000, guid: e99153f3c7695c240a3c82e843e9bdc4, type: 3}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
   m_RenderMode: 1
@@ -71350,7 +71350,7 @@ Light:
       e32: 0
       e33: 1
     m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 2800000, guid: 60457afbd3b8022448d4fe246e6250b9, type: 3}
+  m_Cookie: {fileID: 2800000, guid: e99153f3c7695c240a3c82e843e9bdc4, type: 3}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
   m_RenderMode: 1
