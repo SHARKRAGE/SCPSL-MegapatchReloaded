@@ -8,15 +8,14 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Glass 4
-  m_Shader: {fileID: 4800000, guid: fd1b0c2328cad6942aa89eb15af421f0, type: 3}
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ValidKeywords:
   - _ALPHABLEND_ON
   - _NORMALMAP
-  - _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  m_InvalidKeywords:
   - _WETNESS_NONE
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 3000
   stringTagMap:
@@ -26,7 +25,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 0a4eac28bdb66ab45a137104d18add54, type: 3}
+        m_Texture: {fileID: 2800000, guid: 839af9ce790ca0e4d887f58d0387a950, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap2:
@@ -35,7 +34,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 1, y: 10}
         m_Offset: {x: 0, y: 0}
     - _DetailMask:
         m_Texture: {fileID: 0}
@@ -51,11 +50,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 0.3, y: 0.32}
+        m_Scale: {x: 0.1, y: 0.1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 0.3, y: 0.32}
+        m_Scale: {x: 0.1, y: 0.1}
         m_Offset: {x: 0, y: 0}
     - _MainTex2:
         m_Texture: {fileID: 0}
@@ -126,7 +125,7 @@ Material:
     - _BendNormalsFreq: 4
     - _BendNormalsStrength: 0.05
     - _BumpAmt: 27.5
-    - _BumpScale: 0.18
+    - _BumpScale: 0.05
     - _BumpScale2: 1
     - _CurvatureCustomU: 0
     - _CurvatureCustomV: 0
@@ -165,14 +164,14 @@ Material:
     - _GlitterMask: 0
     - _GlitterShown: 1
     - _GlitterTiling: 1
-    - _GlossMapScale: 0.654
+    - _GlossMapScale: 1
     - _GlossMax: 1
     - _GlossMin: 0
-    - _Glossiness: 0.941
+    - _Glossiness: 1
     - _Glossiness2: 1
     - _GlossyReflections: 1
     - _MainShown: 1
-    - _Metallic: 0.832
+    - _Metallic: 0.913
     - _Metallic2: 1
     - _MinPulseBrightness: 0
     - _Mode: 2
@@ -214,7 +213,7 @@ Material:
     - _ShadowMIPbias: 0
     - _ShadowStrength: 1
     - _Shininess: 0.191
-    - _SmoothnessTextureChannel: 1
+    - _SmoothnessTextureChannel: 0
     - _Smoothness_from_albedo_alpha: 0
     - _Snow: 0
     - _SnowBumpMacro: 0.1
@@ -284,7 +283,7 @@ Material:
     - maxDist: 10
     - minDist: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 0.3764706}
+    - _Color: {r: 0.76862746, g: 0.91764706, b: 1, a: 0.3764706}
     - _Color2: {r: 1, g: 1, b: 1, a: 1}
     - _CurvatureMultOffset: {r: 0, g: 0, b: 0, a: 0}
     - _CutoffEdgeGlow: {r: 0, g: 0, b: 0, a: 0.02}

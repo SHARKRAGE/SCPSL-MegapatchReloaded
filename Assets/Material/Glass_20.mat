@@ -10,8 +10,9 @@ Material:
   m_Name: Glass_20
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ValidKeywords:
-  - _ALPHAPREMULTIPLY_ON
+  - _ALPHABLEND_ON
   - _NORMALMAP
+  - _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -24,7 +25,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 0a4eac28bdb66ab45a137104d18add54, type: 3}
+        m_Texture: {fileID: 2800000, guid: 839af9ce790ca0e4d887f58d0387a950, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -41,11 +42,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 5, y: 5}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 5, y: 5}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -61,25 +62,25 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BumpScale: 0.06
+    - _BumpScale: 0.02
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 10
     - _EmissionScaleUI: 0
-    - _GlossMapScale: 1
-    - _Glossiness: 0.839
+    - _GlossMapScale: 0.935
+    - _Glossiness: 0.935
     - _GlossyReflections: 1
-    - _Metallic: 0
-    - _Mode: 3
+    - _Metallic: 1
+    - _Mode: 2
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _SmoothnessTextureChannel: 0
+    - _SmoothnessTextureChannel: 1
     - _SpecularHighlights: 1
-    - _SrcBlend: 1
+    - _SrcBlend: 5
     - _UVSec: 0
     - _ZWrite: 0
     m_Colors:
-    - _Color: {r: 0.116782, g: 0.13942249, b: 0.17647058, a: 0.797}
+    - _Color: {r: 0.5764706, g: 0.5764706, b: 0.5764706, a: 0.797}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColorUI: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
