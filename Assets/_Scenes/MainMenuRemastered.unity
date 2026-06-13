@@ -4958,7 +4958,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &275
 GameObject:
   m_ObjectHideFlags: 0
@@ -33137,7 +33137,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 20ecf65e189f7b941933a919ed105070, type: 3}
+    m_Font: {fileID: 12800000, guid: bb9897d436b2b954e8d58285d70d3771, type: 3}
     m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
@@ -33688,7 +33688,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: b9e369fef92a6a247ab38fb06d829e79, type: 3}
     m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
@@ -34756,7 +34756,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: f2955a997022e594a8a122142a70883a, type: 3}
+    m_Font: {fileID: 12800000, guid: bb9897d436b2b954e8d58285d70d3771, type: 3}
     m_FontSize: 26
     m_FontStyle: 0
     m_BestFit: 0
