@@ -101917,7 +101917,7 @@ MonoBehaviour:
   m_RunstepLenghten: 0.75
   m_JumpSpeed: 7
   m_StickToGroundForce: 10
-  m_GravityMultiplier: 2
+  m_GravityMultiplier: 3
   m_MouseLook:
     XSensitivity: 2
     YSensitivity: 2
@@ -102138,7 +102138,7 @@ MonoBehaviour:
     maxHP: 3200
     walkSpeed: 15
     runSpeed: 15
-    jumpSpeed: 5
+    jumpSpeed: 6
     model_player: {fileID: 1709254077376921, guid: b73bfc9185e880c4ca265b7db8ce70b3,
       type: 3}
     model_offset:
@@ -102177,7 +102177,7 @@ MonoBehaviour:
     maxHP: 100
     walkSpeed: 4.5
     runSpeed: 7
-    jumpSpeed: 6
+    jumpSpeed: 7
     model_player: {fileID: 1709254077376921, guid: 8b991bfd3e79a37409fa3aa6ea6ead13,
       type: 3}
     model_offset:
@@ -102250,9 +102250,9 @@ MonoBehaviour:
       type: 2}
     ammoTypes: 000000000000000000000000
     maxHP: 650
-    walkSpeed: 5.6
-    runSpeed: 5.6
-    jumpSpeed: 7
+    walkSpeed: 6
+    runSpeed: 6
+    jumpSpeed: 8
     model_player: {fileID: 1709254077376921, guid: d05589e0d7466b740afd57a3bd24641d,
       type: 3}
     model_offset:
@@ -102289,7 +102289,7 @@ MonoBehaviour:
     maxHP: 120
     walkSpeed: 4.5
     runSpeed: 7
-    jumpSpeed: 6
+    jumpSpeed: 7
     model_player: {fileID: 1709254077376921, guid: fd436ccc8b001844aa774495bdfba5a2,
       type: 3}
     model_offset:
@@ -102331,9 +102331,9 @@ MonoBehaviour:
       type: 2}
     ammoTypes: 000000000000000000000000
     maxHP: 1700
-    walkSpeed: 5.2
-    runSpeed: 5.2
-    jumpSpeed: 6
+    walkSpeed: 6
+    runSpeed: 6
+    jumpSpeed: 7
     model_player: {fileID: 1709254077376921, guid: 0d0d3cbcabd13b948863b427308882d3,
       type: 3}
     model_offset:
@@ -102369,9 +102369,9 @@ MonoBehaviour:
       type: 2}
     ammoTypes: 140000000f0000000f000000
     maxHP: 100
-    walkSpeed: 4.5
+    walkSpeed: 5
     runSpeed: 7
-    jumpSpeed: 6
+    jumpSpeed: 7
     model_player: {fileID: 1709254077376921, guid: 2f8b5c7fcf0aae541b1c0e1164ec372b,
       type: 3}
     model_offset:
@@ -102450,7 +102450,7 @@ MonoBehaviour:
     maxHP: 120
     walkSpeed: 5
     runSpeed: 7
-    jumpSpeed: 6
+    jumpSpeed: 7
     model_player: {fileID: 1709254077376921, guid: a2f01a91533d4464984d5b934833d351,
       type: 3}
     model_offset:
@@ -102492,9 +102492,9 @@ MonoBehaviour:
       type: 2}
     ammoTypes: 000000000000000000000000
     maxHP: 2000
-    walkSpeed: 4.7
-    runSpeed: 4.7
-    jumpSpeed: 4
+    walkSpeed: 5
+    runSpeed: 5
+    jumpSpeed: 6
     model_player: {fileID: 1709254077376921, guid: c8d539ae6770b724fa995faec8404d89,
       type: 3}
     model_offset:
@@ -102529,9 +102529,9 @@ MonoBehaviour:
     postprocessingProfile: {fileID: 11400000, guid: 6ade03b21dde9a945a8bf9963a75e53a,
       type: 2}
     ammoTypes: 000000000000000000000000
-    maxHP: 400
-    walkSpeed: 6
-    runSpeed: 6
+    maxHP: 300
+    walkSpeed: 6.5
+    runSpeed: 6.5
     jumpSpeed: 5
     model_player: {fileID: 1709254077376921, guid: 43245b3b82542d34d8096e1c594b8b56,
       type: 3}
@@ -102571,7 +102571,7 @@ MonoBehaviour:
     maxHP: 120
     walkSpeed: 4.5
     runSpeed: 7
-    jumpSpeed: 6
+    jumpSpeed: 7
     model_player: {fileID: 1709254077376921, guid: fd436ccc8b001844aa774495bdfba5a2,
       type: 3}
     model_offset:
@@ -102610,7 +102610,7 @@ MonoBehaviour:
     maxHP: 150
     walkSpeed: 4.5
     runSpeed: 7
-    jumpSpeed: 6
+    jumpSpeed: 7
     model_player: {fileID: 1709254077376921, guid: fd436ccc8b001844aa774495bdfba5a2,
       type: 3}
     model_offset:
@@ -102652,7 +102652,7 @@ MonoBehaviour:
     maxHP: 100
     walkSpeed: 4.5
     runSpeed: 7
-    jumpSpeed: 6
+    jumpSpeed: 7
     model_player: {fileID: 1709254077376921, guid: fd436ccc8b001844aa774495bdfba5a2,
       type: 3}
     model_offset:
@@ -102687,9 +102687,9 @@ MonoBehaviour:
       type: 2}
     ammoTypes: 000000000000000000000000
     maxHP: 100
-    walkSpeed: 4.3
+    walkSpeed: 5
     runSpeed: 7
-    jumpSpeed: 6
+    jumpSpeed: 7
     model_player: {fileID: 1709254077376921, guid: d2ca603d4471d104484ba71532cdca8e,
       type: 3}
     model_offset:
@@ -102730,7 +102730,7 @@ MonoBehaviour:
     maxHP: 100
     walkSpeed: 4.5
     runSpeed: 7
-    jumpSpeed: 6
+    jumpSpeed: 7
     model_player: {fileID: 1709254077376921, guid: 1361299141d0953458fb03865ab98855,
       type: 3}
     model_offset:
@@ -102769,9 +102769,9 @@ MonoBehaviour:
       type: 2}
     ammoTypes: 000000000000000000000000
     maxHP: 2200
-    walkSpeed: 5
-    runSpeed: 6.5
-    jumpSpeed: 7
+    walkSpeed: 4.5
+    runSpeed: 7
+    jumpSpeed: 8
     model_player: {fileID: 1709254077376921, guid: e1791aaef9495a749b8c7cb24531fb28,
       type: 3}
     model_offset:
@@ -105655,7 +105655,7 @@ MonoBehaviour:
   iAm049_2: 0
   sameClass: 0
   distance: 2
-  damage: 70
+  damage: 40
   multiplier:
     serializedVersion: 2
     m_Curve:
@@ -105731,7 +105731,7 @@ MonoBehaviour:
   rageProgress: 0
   ragemultiplier_looking: 0.5
   ragemultiplier_deduct: 0.07
-  ragemultiplier_coodownduration: 10
+  ragemultiplier_coodownduration: 7
   lookingTolerance:
     serializedVersion: 2
     m_Curve:
