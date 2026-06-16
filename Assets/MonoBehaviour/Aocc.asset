@@ -45,7 +45,7 @@ MonoBehaviour:
     m_Settings:
       intensity: 1.52
       radius: 0.25
-      sampleCount: 3
+      sampleCount: 10
       downsampling: 1
       forceForwardCompatibility: 0
       ambientOnly: 0
@@ -55,13 +55,13 @@ MonoBehaviour:
     m_Settings:
       reflection:
         blendType: 0
-        reflectionQuality: 2
+        reflectionQuality: 0
         maxDistance: 300
         iterationCount: 741
         stepSize: 10
         widthModifier: 6.13
         reflectionBlur: 0.81
-        reflectBackfaces: 0
+        reflectBackfaces: 1
       intensity:
         reflectionMultiplier: 1.624
         fadeDistance: 292
@@ -84,31 +84,31 @@ MonoBehaviour:
       sampleCount: 4
       frameBlending: 0
   eyeAdaptation:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
-      lowPercent: 99
-      highPercent: 99
-      minLuminance: -3.5
-      maxLuminance: 0
+      lowPercent: 45
+      highPercent: 95
+      minLuminance: -5
+      maxLuminance: 1
       keyValue: 0.25
       dynamicKeyValue: 1
-      adaptationType: 0
+      adaptationType: 1
       speedUp: 2
       speedDown: 1
       logMin: -14
       logMax: 16
   bloom:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       bloom:
-        intensity: 0.21
-        threshold: 0.72
-        softKnee: 0.586
-        radius: 7
+        intensity: 0
+        threshold: 0
+        softKnee: 0
+        radius: 1
         antiFlicker: 1
       lensDirt:
         texture: {fileID: 2800000, guid: aea122b1d5a2aeb468bda35037cfd7a4, type: 3}
-        intensity: 1
+        intensity: 0
   colorGrading:
     m_Enabled: 1
     m_Settings:
@@ -126,7 +126,7 @@ MonoBehaviour:
         tint: 0
         hueShift: 0
         saturation: 1
-        contrast: 1.15
+        contrast: 1.25
       channelMixer:
         red: {x: 1, y: 0, z: 0}
         green: {x: 0, y: 1, z: 0}

@@ -4,14 +4,13 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5d36ee7acb8a07c4830aedf6c8f58322, type: 3}
   m_Name: NVScope
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   debugViews:
     m_Enabled: 1
     m_Settings:
@@ -30,7 +29,7 @@ MonoBehaviour:
     m_Settings:
       excludeSkybox: 1
   antialiasing:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       method: 0
       fxaaSettings:
@@ -84,15 +83,15 @@ MonoBehaviour:
       sampleCount: 10
       frameBlending: 0.321
   eyeAdaptation:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
-      lowPercent: 99
-      highPercent: 99
-      minLuminance: -3.5
+      lowPercent: 45
+      highPercent: 95
+      minLuminance: -5
       maxLuminance: 1
       keyValue: 0.25
       dynamicKeyValue: 1
-      adaptationType: 0
+      adaptationType: 1
       speedUp: 2
       speedDown: 1
       logMin: -14
@@ -121,12 +120,12 @@ MonoBehaviour:
         neutralWhiteLevel: 4.8
         neutralWhiteClip: 4.15
       basic:
-        postExposure: 4
+        postExposure: 5.81
         temperature: -15
         tint: -100
         hueShift: 0
         saturation: 1
-        contrast: 0.5
+        contrast: 1.07
       channelMixer:
         red: {x: 1, y: 0, z: 0}
         green: {x: 0, y: 1, z: 0}
@@ -331,3 +330,4 @@ MonoBehaviour:
       rounded: 1
   dithering:
     m_Enabled: 0
+    m_Settings: {}
