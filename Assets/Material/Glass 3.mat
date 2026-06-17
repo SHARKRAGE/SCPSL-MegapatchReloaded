@@ -165,7 +165,7 @@ Material:
     - _GlitterMask: 0
     - _GlitterShown: 1
     - _GlitterTiling: 1
-    - _GlossMapScale: 1
+    - _GlossMapScale: 0.913
     - _GlossMax: 1
     - _GlossMin: 0
     - _Glossiness: 0.941
