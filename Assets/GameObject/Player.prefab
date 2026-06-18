@@ -38557,6 +38557,7 @@ GameObject:
   - component: {fileID: 114080678717129812}
   - component: {fileID: 114364889774255294}
   - component: {fileID: 5788292461054105330}
+  - component: {fileID: 6748222690078528144}
   m_Layer: 2
   m_Name: FirstPersonCharacter
   m_TagString: MainCamera
@@ -38762,8 +38763,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5a5d003a3c46be8ed41a7aa5ac9c811, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Resolution: 2
+  Resolution: 1
   DefaultSpotCookie: {fileID: 0}
+--- !u!114 &6748222690078528144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243736805655561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ca03de55d76f714d93e12bf36198a2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  point_size: 0.03
+  direction_size: 0.03
+  spot_size: 0.03
 --- !u!1 &1243806679900083
 GameObject:
   m_ObjectHideFlags: 0
@@ -109301,7 +109317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f946ea59694dd2fa446a8c1f68a07cec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normalColor: {r: 0.1, g: 0.1, b: 0.1, a: 1}
+  normalColor: {r: 0, g: 0, b: 0, a: 1}
   vhighColor: {r: 0.1981132, g: 0.1981132, b: 0.1981132, a: 1}
   deltatimeScale: 3
   syncFlicker: 0
