@@ -1,29 +1,5 @@
 {
   "dependencies": {
-    "com.tnd.common": {
-      "version": "file:com.tnd.common",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "com.tnd.upscaler.fsr2": {
-      "version": "file:com.tnd.upscaler.fsr2",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.tnd.upscaling": "1.1.2",
-        "com.tnd.common": "1.0.0"
-      }
-    },
-    "com.tnd.upscaling": {
-      "version": "file:com.tnd.upscaling",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.tnd.common": "1.0.0",
-        "com.unity.nuget.newtonsoft-json": "3.2.1"
-      }
-    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
@@ -71,13 +47,6 @@
     "com.unity.ide.vscode": {
       "version": "1.2.5",
       "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.nuget.newtonsoft-json": {
-      "version": "3.2.1",
-      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
