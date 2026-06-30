@@ -1,0 +1,4 @@
+Packages\TND FSR 2\Plugins\LICENSE.txt
+https://github.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK?tab=readme-ov-file
+
+The FidelityFX SDK is a collection of heavily optimized technologies that can be used by developers to improve their DirectX® 12 or Vulkan® applications.

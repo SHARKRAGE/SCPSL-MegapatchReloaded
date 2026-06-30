@@ -55,7 +55,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Post-Proccesing
   - Water
   - UI
   - 
@@ -83,7 +83,7 @@ TagManager:
   - BreakableGlass
   - Blood&Decals
   - Locker
-  - 
+  - MuzzleFlash
   m_SortingLayers:
   - name: Sight
     uniqueID: 328081209
