@@ -339,4 +339,4 @@ MonoBehaviour:
       opacity: 1
       rounded: 1
   dithering:
-    m_Enabled: 1
+    m_Enabled: 0
